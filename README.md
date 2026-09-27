@@ -1,7 +1,7 @@
 <h1 align="center">Ali Kharazi</h1>
 
 <p align="center">
-  <b>AI &amp; Data Engineer</b> · LLM agents · Persian NLP · data pipelines
+  <b>AI &amp; Data Engineer</b> · LLM agents · Persian NLP · computer vision · data pipelines
 </p>
 
 <p align="center" dir="rtl">
@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude API">
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
@@ -27,6 +28,7 @@ I build AI systems for Persian-speaking users — multi-agent orchestration, ret
 
 - **LLM agents & orchestration** — goals planned as task graphs, specialist agents running in parallel, review loops, and a model gateway with token and cost budgets.
 - **Persian NLP & RAG** — normalization, tokenization, stop words and synonyms for retrieval over Persian text, powering AI coaches on Claude, Gemini and Groq.
+- **Computer vision** — real-time hand tracking that turns a webcam into a touch-free mouse and air whiteboard.
 - **Data pipelines** — scraping and PDF extraction with PyMuPDF that turn exam archives into structured, topic-tagged datasets.
 - **Product analytics** — privacy-first telemetry and in-app assistants that notice what users need.
 
@@ -35,6 +37,7 @@ I build AI systems for Persian-speaking users — multi-agent orchestration, ret
 | Project | What it does | Stack |
 |---|---|---|
 | [**agent-factory**](https://github.com/todos125m/agent-factory) | AI Venture Operating System: agents plan a goal as a task graph, run specialists in parallel, review the result and teach you how it was solved. | Python · FastAPI · SQLAlchemy · Claude |
+| [**AirTouch**](https://github.com/younespuri/AirTouch) · with [@younespuri](https://github.com/younespuri) | Control your computer without touching it: move the mouse and write in the air with just your hand and a webcam. | Python · MediaPipe · OpenCV · NumPy |
 | **Momentum AI Coach** · [momentum07.site](https://momentum07.site) | Persian study and productivity coach with retrieval over a Persian knowledge base. | React · Capacitor · PHP/MySQL · Claude · Gemini · Groq |
 | **Konkur question bank** | Pipeline that turns konkur exam PDFs into a structured, topic-tagged question bank. | Python · PyMuPDF |
 | **Flow** | Modular Persian app whose assistant suggests the right module at the right time, with privacy-first telemetry and 206 tests. | React · Vite · Vitest |
@@ -42,7 +45,7 @@ I build AI systems for Persian-speaking users — multi-agent orchestration, ret
 
 ### Toolbox
 
-- **AI & data:** Python · FastAPI · Pydantic · SQLAlchemy · PyMuPDF · Claude, Gemini and Groq APIs · RAG · prompt engineering
+- **AI & data:** Python · FastAPI · Pydantic · SQLAlchemy · PyMuPDF · MediaPipe · OpenCV · NumPy · Claude, Gemini and Groq APIs · RAG · prompt engineering
 - **Data stores:** PostgreSQL · MySQL · Supabase · Prisma
 - **Shipping products:** React · Next.js · NestJS · Flutter · Capacitor · PHP
 
